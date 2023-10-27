@@ -1,8 +1,8 @@
 /* GLOBAL TYPOGRAPHY */
 body {
-  background-color: #dcdcdc;
+  background-color: #066409;
   font-family: 'Roboto', sans-serif;
-  color: #313131;
+  color: #f2ebeb;
   font-size: 1.25em;
 }
 
@@ -15,11 +15,16 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  background-image: url(images/cartoon-comic-dino-dinosaur-green-ideas-smile-funny-gift-ideas.jpeg);
+  background-size: 35%;
 }
 header {
+  color: rgb(66, 8, 121);
   height: 8em;
-  background-color: #7a7a7a;
+  background-color: #2d508e;
   text-align: center;
+  background-image: url(images/illustration-cartoon-pterodactyl-colorful-background_1335-1329.avif);
+  background-size: 10%;
 }
 main {
   flex: auto;
@@ -28,7 +33,7 @@ main {
 }
 footer {
   height: 8em;
-  background-color: #7a7a7a;
+  background-color: #441602;
   text-align: center;
 }
 
@@ -42,6 +47,8 @@ header, footer {
 }
 h1 {
   font-size: 2.5em;
+  background-color: wheat;
+  border-radius: 10px;
 }
 
 
@@ -65,6 +72,7 @@ table {
 }
 table, th, td {
   border: 1px solid black;
+  color: black;
   border-collapse: collapse;
   height: 2.15em;
 }
